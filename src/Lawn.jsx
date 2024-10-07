@@ -10,7 +10,7 @@ import FooterComponent from './ConstantComponents/FooterComponent/FooterComponen
 
 function Lawn() {
   return (
-    <div className=''>
+    <div className=' bg-MainBg'>
         <BrowserRouter>
             <HeaderComponent/>
             <Routes>

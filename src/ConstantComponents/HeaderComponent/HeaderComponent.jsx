@@ -18,8 +18,8 @@ function HeaderComponent() {
         
     }
   return (
-    <div className='bg-[#212f3d] relative '>
-        <div className=' h-[80px] w-full bg-[#212f3d] flex justify-around items-center lg:hidden p-[10px]'>
+    <div className='bg-bbb relative '>
+        <div className=' h-[80px] w-full bg-bbb flex justify-around items-center lg:hidden p-[10px]'>
           <div className=' w-[50%] p-[10px] font-bold'>
             <h1 className=''><ImScissors className='text-btncolo text-[40px] box-border'/></h1>
           </div>
@@ -68,7 +68,7 @@ function HeaderComponent() {
 
 
                {/* for large screen  */}
-        <div className=' h-[80px] w-full bg-MainBg hidden lg:flex lg:items-center lg:justify-around p-[15px]  gap-[20px]'>
+        <div className=' h-[80px] w-full bg-bbb hidden lg:flex lg:items-center lg:justify-around p-[15px]  gap-[20px]'>
           <div className='w-[20%]'>
               <h1 className='flex items-center text-[20px] text-textc font-bold'>Lawn <ImScissors className='text-[95px] md:text-[50px] text-[#f1c40f]'/> CUTz</h1>
           </div>
