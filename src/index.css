@@ -1,68 +1,283 @@
-:root {
-  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
-  line-height: 1.5;
-  font-weight: 400;
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
-  color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
 
-  font-synthesis: none;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+
+*{
+    margin: 0;
+    padding: 0;
 }
 
-a {
-  font-weight: 500;
-  color: #646cff;
-  text-decoration: inherit;
+/* BEGINNING OF LANDING PAGE CSS DESIGN  */
+.homebc{
+    background-image: url(UI/HomeComponent/Homepictures/bccc.jpg);
+    background-repeat: none;
+    background-size: 100% 100%;
+    background-blend-mode: color-dodge;
+    background-attachment: fixed;
 }
-a:hover {
-  color: #535bf2;
+span{
+    color:  #f1c40f;
+}
+.fadepic{
+    opacity: 0;
+    transform: translateX(20px);
+    animation: picfade 3s forwards;
+}
+@keyframes picfade{
+    0%{
+        opacity: 0;
+        transform: translateX(30px);
+    }
+    100%{
+        opacity: 1;
+        transform: translateX(0);
+
+    }
+}
+.fadetext{
+    opacity: 0;
+    transform: translateY(20px);
+    animation: textfade 3s forwards;
+}
+@keyframes textfade {
+    0%{
+        opacity: 0;
+        transform: translateY(50px);
+    }
+    100%{
+        opacity: 1;
+        transform: translateY(0);
+
+    }
+    
+}
+.middlebc{
+    background-image: url(UI/HomeComponent/Homepictures/bccc.jpg);
+    background-repeat: none;
+    background-size: 100% 100%;
+    background-blend-mode: color-dodge;
+    background-attachment: fixed;
+}
+.picsfade{
+    opacity: 0;
+    transform: translateX(60px);   
+    animation: fadeepics  3s forwards;
+}
+@keyframes fadeepics {
+    0%{
+        opacity: 0;
+        transform: translateX(40px);
+    }
+    100%{
+        opacity: 1;
+        transform: translateX(0);
+    }
+    
+}
+.fadetext2{
+    opacity: 0;
+    transform: translateX(60px);   
+    animation: textfade2  4s forwards;
+}
+@keyframes textfade2 {
+    0%{
+        opacity: 0;
+        transform: translateX(40px);
+    }
+    100%{
+        opacity: 1;
+        transform: translateX(0);
+    }
+    
+}
+.fadetext3{
+    opacity: 0;
+    transform: translateX(60px);   
+    animation: textfade3  5s forwards;
+}
+@keyframes textfade3 {
+    0%{
+        opacity: 0;
+        transform: translateX(40px);
+    }
+    100%{
+        opacity: 1;
+        transform: translateX(0);
+    }
+    
+}
+.bottombc{
+    background-image: url(UI/HomeComponent/Homepictures/Seconbackground.jpg);
+    background-repeat: none;
+    background-size: 100% 100%;
+    background-blend-mode: color-dodge;
+    background-attachment: fixed;
+    background-color: #212f3d;
+
+}
+.con{
+    /* color: silver; */
+    position: relative;
+    width: 100%;
+    /* text-align: center; */
+    z-index: 3;
+}
+.con::after{
+    content:  "";
+    height: 4px;
+    width: 60px;
+    background-color: #f1c40f;
+    position: absolute;
+    top: 28px;
+    right: 0;
+    z-index: -5;
+}
+.ccon{
+    /* color: silver; */
+    position: relative;
+    width: 100%;
+    z-index: 3;
+}
+.ccon::after{
+    content:  " ";
+    height: 4px;
+    width: 140px;
+    background-color: #f1c40f;
+    position: absolute;
+    top: 80px;
+    /* right: 0; */
+    z-index: -5;
+}
+.conn{
+    position: relative;
+    width: 100%;
+    z-index: 3;
+
+}
+.conn::after{
+    content:  " ";
+    height: 4px;
+    width: 90px;
+    background-color: #f1c40f;
+    position: absolute;
+    top: 80px;
+    /* right: 0; */
+    z-index: -5;
+}
+.movetext{
+    opacity: 0;
+    transform: translateX(60px);   
+    animation: textmove  5s forwards;
+
+}
+@keyframes textmove {
+    0%{
+        opacity: 0;
+        transform: translateX(20px);
+    }
+    100%{
+        opacity: 1;
+        transform: translateX(0);
+    }
+    
 }
 
-body {
-  margin: 0;
-  display: flex;
-  place-items: center;
-  min-width: 320px;
-  min-height: 100vh;
+/* END OF LANDING PAGE CSS DESIGN  */
+
+
+    /* BEGINNING OF BOOKNOW CSS  */
+.booknowbc{
+    background-image: url(UI/BookNowComponent/BooknowPictures/booknowbackground.jpg);
+    background-repeat: none;
+    background-size: 100% 100%;
+    background-blend-mode: color-dodge;
+    background-attachment: fixed;
+    background-color: #212f3d;
 }
 
-h1 {
-  font-size: 3.2em;
-  line-height: 1.1;
+.booking{
+    position: relative;
+    width: 100%;
+    z-index: 3;
+
+}
+.booking::after{
+    content:  " ";
+    height: 1px;
+    width: 50px;
+    background-color: #f1c40f;
+    position: absolute;
+    top: 15px;
+    /* right: 0; */
+    z-index: -5;
+}
+  /* ENDING OF BOOKNOW CSS  */
+
+    /* BEGINING OF SERVICES CSS  */
+.servicesbg{
+    background-image: url(UI/ServicesComponent/servicespictures/servicesbc.jpg);
+    background-repeat: none;
+    background-size: 100% 100%;
+    background-blend-mode: color-dodge;
+    background-attachment: fixed;
+    background-color: #212f3d;
+}
+.servitext{
+    opacity: 0;
+    transform: translateY(40px);   
+    animation: textservi  5s forwards;
+}
+@keyframes textservi {
+    0%{
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    100%{
+        opacity: 1;
+        transform: translateY(0);
+    }
+    
+}
+    /* ENDING OF SERVICES CSS  */
+
+    /* BEGINING OF ABOUT CSS  */
+.aboutbackground{
+    background-image: url(UI/AboutComponent/AboutPictures/aboutbc.jpg);
+    background-repeat: none;
+    background-size: 100% 100%;
+    background-blend-mode: color-dodge;
+    background-attachment: fixed;
+    background-color: #212f3d;
+}
+.aboutbc{
+    background-image: url(UI/HomeComponent/Homepictures/Seconbackground.jpg);
+    background-repeat: none;
+    background-size: 100% 100%;
+    background-blend-mode: color-dodge;
+    background-attachment: fixed;
+    background-color: #212f3d;
+}
+    /* ENDING OF ABOUT CSS  */
+
+    /* BEGINING OF EXTRA CSS  */
+.extrabc{
+    background-image: url(UI/ExtrasComponent/ExtraPictures/extrabc.jpg);
+    background-repeat: none;
+    background-size: 100% 100%;
+    background-blend-mode: color-dodge;
+    background-attachment: fixed;
+    background-color: #212f3d;
+}
+.extrabgg{
+    background-image: url(UI/ExtrasComponent/ExtraPictures/extrabc2.jpg);
+    background-repeat: none;
+    background-size: 100% 100%;
+    background-blend-mode: color-dodge;
+    background-attachment: fixed;
+    background-color: #212f3d;
 }
 
-button {
-  border-radius: 8px;
-  border: 1px solid transparent;
-  padding: 0.6em 1.2em;
-  font-size: 1em;
-  font-weight: 500;
-  font-family: inherit;
-  background-color: #1a1a1a;
-  cursor: pointer;
-  transition: border-color 0.25s;
-}
-button:hover {
-  border-color: #646cff;
-}
-button:focus,
-button:focus-visible {
-  outline: 4px auto -webkit-focus-ring-color;
-}
 
-@media (prefers-color-scheme: light) {
-  :root {
-    color: #213547;
-    background-color: #ffffff;
-  }
-  a:hover {
-    color: #747bff;
-  }
-  button {
-    background-color: #f9f9f9;
-  }
-}
+
