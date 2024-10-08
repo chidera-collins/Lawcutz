@@ -13,15 +13,15 @@ function HomeComponet11() {
                     <ul className='flex flex-col items-center'>
                         <li className='font-bold text-textc'>Mon-Thurs</li>
                         <li className='text-3xl font-bold text-btncolo mt-[10px]'>7:30AM - 6:30PM</li>
-                        <h1 className='md:hidden text-btncolo'>________________________________________________</h1>
+                        <h1 className='md:hidden text-btncolo'>__________________________________________</h1>
                         <h1 className='hidden text-btncolo md:block'>__________________________________________________________________________________________________</h1>
                         <li className='font-bold text-textc mt-[10px]'>Friday</li>
                         <li className='text-3xl font-bold text-btncolo mt-[10px]'>8:30AM - 8:30PM</li>
-                        <h1 className='md:hidden text-btncolo text-1xl font-bold'>__________________________________________________</h1>
+                        <h1 className='md:hidden text-btncolo text-1xl font-bold'>___________________________________________</h1>
                         <h1 className='hidden text-btncolo md:block'>__________________________________________________________________________________________________</h1>              
                         <li className='font-bold text-textc mt-[10px]'>Sat-Sun</li>
                         <li className='text-3xl font-bold text-btncolo mt-[10px]'>9:30AM - 5:30PM</li>
-                        <h1 className='md:hidden text-btncolo text-1xl font-bold'>_________________________________________________</h1>
+                        <h1 className='md:hidden text-btncolo text-1xl font-bold'>___________________________________________</h1>
                         <h1 className='hidden text-btncolo md:block'>__________________________________________________________________________________________________</h1>
 
 
@@ -45,16 +45,16 @@ function HomeComponet11() {
                     <ul className='flex flex-col items-center'>
                         <li className='font-bold text-textc'>ADDRESS</li>
                         <li className='text-3xl font-bold text-btncolo mt-[10px] text-center'>100 MAINSTREET CENTER,NY</li>
-                        <h1 className='md:hidden text-btncolo'>________________________________________________</h1>
-                        <h1 className='hidden text-btncolo md:block'>__________________________________________________________________________________________________</h1>
+                        <h1 className='md:hidden text-btncolo'>__________________________________________</h1>
+                        <h1 className='hidden text-btncolo md:block'>______________________________________________________________________________________________</h1>
                         <li className='font-bold text-textc mt-[10px]'>PHONE</li>
                         <li className='text-3xl font-bold text-btncolo mt-[10px] tracking-wider'>+234 90 80445787</li>
-                        <h1 className='md:hidden text-btncolo text-1xl font-bold'>__________________________________________________</h1>
-                        <h1 className='hidden text-btncolo md:block'>__________________________________________________________________________________________________</h1>              
+                        <h1 className='md:hidden text-btncolo text-1xl font-bold'>___________________________________________</h1>
+                        <h1 className='hidden text-btncolo md:block'>______________________________________________________________________________________________</h1>              
                         <li className='font-bold text-textc mt-[10px]'>EMAIL</li>
                         <li className='text-2xl md:text-3xl font-bold text-btncolo mt-[10px]'>CONTACT@LAWN.COM</li>
-                        <h1 className='md:hidden text-btncolo text-1xl font-bold'>_________________________________________________</h1>
-                        <h1 className='hidden text-btncolo md:block'>__________________________________________________________________________________________________</h1>
+                        <h1 className='md:hidden text-btncolo text-1xl font-bold'>___________________________________________</h1>
+                        <h1 className='hidden text-btncolo md:block'>_______________________________________________________________________________________________</h1>
 
 
                     </ul>
