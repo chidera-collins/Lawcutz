@@ -11,7 +11,7 @@ function HomeComponent1() {
                 <h1 className='text-textc font-bold text-3xl md:text-[40px] lg:text-[80px] lg:leading-[70px]'>
                     YOUR <span>BEST LOOK</span>, RIGHT IN OUR CHAIR!
                 </h1>
-                <p className='text-[20px] font-medium mt-5 text-textc'>
+                <p className='text-[16px] md:text-[20px] font-light mt-5 text-textc'>
                    Established with a passion for the art of barbering, we take great pride in our craft and strive to create an atmosphere that feels like home
                  </p> 
             </div>

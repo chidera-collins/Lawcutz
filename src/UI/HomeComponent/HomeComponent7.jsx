@@ -16,7 +16,7 @@ function HomeComponent7() {
                 <h1 className='text-textc font-bold text-[40px] md:text-[50px] lg:text-[60px] fadetext2'>
                     We'll Crafting <span>CONFIDENCE</span> Through Sharp Style
                 </h1>
-                <p className='text-textc text-start text-[16px] md:text-[18px] lg:leading-7 fadetext3'>
+                <p className='text-textc font-light text-start text-[16px] md:text-[18px] lg:leading-7 fadetext3'>
                     We take pride in providing top-notch grooming services that blend classic techniques with modern trends. 
                     Step into our warm and inviting space, where you'll find a team of skilled barbers dedicated to enhancing your style and confidence
                     
