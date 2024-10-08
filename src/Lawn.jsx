@@ -6,7 +6,7 @@ import ServicesComponent from './UI/ServicesComponent/ServicesComponent'
 import AboutComponent from './UI/AboutComponent/AboutComponent'
 import BookNowComponent from './UI/BookNowComponent/BookNowComponent'
 import ExtrasComponent from './UI/ExtrasComponent/ExtrasComponent'
-import FooterComponent from './ConstantComponents/FooterComponent/FooterComponent.jsx'
+import FooterComponent from './ConstantComponents/FooterComponent/FooterComponent'
 
 function Lawn() {
   return (
