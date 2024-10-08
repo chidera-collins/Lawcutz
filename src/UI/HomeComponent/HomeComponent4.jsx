@@ -21,7 +21,7 @@ function HomeComponent4() {
         speed: 500
       };
   return (
-    <div className='w-full h-[300px] md:hidden lg:hidden slider-container bg-MainBg p-[10px]' >
+    <div className='w-full h-[300px] md:hidden lg:hidden slider-container bg-MainBg p-[10px] box-border' >
         <Slider {...settings}>
             <div className='h-[200px] relative'>
                 <div className='h-[200px] relative'>

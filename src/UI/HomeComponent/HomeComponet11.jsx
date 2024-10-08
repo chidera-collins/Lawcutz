@@ -35,7 +35,7 @@ function HomeComponet11() {
             
 
         </div>
-        <div className='min-h-[600px] w-full relative p-[10px] lg:mt-[20px]'>
+        <div className='min-h-[600px] w-full relative p-[10px] box-border lg:mt-[20px]'>
             <div className='min-h-[480px] w-full absolute border-[2px] border-btncolo right-[5px] top-[20px]'>
                 <div className='max-h-[200px] w-full flex items-center justify-center flex-col mt-[10px]'>
                     <h1 className='text-3xl font-bold text-textc'>LOCATION</h1>

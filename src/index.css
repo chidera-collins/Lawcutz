@@ -28,7 +28,7 @@ span{
 @keyframes picfade{
     0%{
         opacity: 0;
-        transform: translateX(30px);
+        transform: translateX(20px);
     }
     100%{
         opacity: 1;
@@ -62,13 +62,13 @@ span{
 }
 .picsfade{
     opacity: 0;
-    transform: translateX(60px);   
+    transform: translateX(30px);   
     animation: fadeepics  3s forwards;
 }
 @keyframes fadeepics {
     0%{
         opacity: 0;
-        transform: translateX(40px);
+        transform: translateX(30px);
     }
     100%{
         opacity: 1;
@@ -78,13 +78,13 @@ span{
 }
 .fadetext2{
     opacity: 0;
-    transform: translateX(60px);   
+    transform: translateX(40px);   
     animation: textfade2  4s forwards;
 }
 @keyframes textfade2 {
     0%{
         opacity: 0;
-        transform: translateX(40px);
+        transform: translateX(30px);
     }
     100%{
         opacity: 1;
@@ -94,13 +94,13 @@ span{
 }
 .fadetext3{
     opacity: 0;
-    transform: translateX(60px);   
+    transform: translateX(40px);   
     animation: textfade3  5s forwards;
 }
 @keyframes textfade3 {
     0%{
         opacity: 0;
-        transform: translateX(40px);
+        transform: translateX(30px);
     }
     100%{
         opacity: 1;
@@ -168,7 +168,7 @@ span{
 }
 .movetext{
     opacity: 0;
-    transform: translateX(60px);   
+    transform: translateX(40px);   
     animation: textmove  5s forwards;
 
 }
