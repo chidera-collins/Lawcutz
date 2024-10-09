@@ -43,7 +43,7 @@ function HeaderComponent() {
           </div> 
           
         </div>
-        <div className=' bg-[#151e26e4] absolute w-full lg:hidden text-textc font-bold text-4xl overflow-hidden  z-30 p-10px] box-border'  style={{height:navheight}}>
+        <div onClick={navbar} className=' bg-[#151e26e4] absolute w-full lg:hidden text-textc font-bold text-4xl overflow-hidden  z-30 p-10px] box-border'  style={{height:navheight}}>
           <ul className='border-b-[1px] '>
             <li className='border-b-[1px]'>
               <Link to={'/'}>Home</Link>
